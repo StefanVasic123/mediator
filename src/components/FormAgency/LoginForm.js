@@ -8,6 +8,7 @@ class LoginForm extends React.Component {
 
     render() {
         return (
+        <div>
             <form className="container">
                 <div className="form-group">
                     <label for="exampleInputEmail1">Email address</label>
@@ -24,6 +25,8 @@ class LoginForm extends React.Component {
                 </div>
                 <button type="submit" className="btn btn-primary">Submit</button>
             </form>
+            <button onClick={() => this.props.history.goBack()}>Back</button>
+        </div>
         );
     }
 }

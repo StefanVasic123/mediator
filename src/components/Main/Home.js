@@ -3,6 +3,7 @@ import { Link, BrowserRouter as Router } from 'react-router-dom';
 
 const Home = () => {
     return (
+    <div>
         <div className="jumbotron">
             <h1 className="display-4">Mediator</h1>
                 <p className="lead">Your choice for quick and efficient employment</p>
@@ -12,6 +13,7 @@ const Home = () => {
                     <Link to={"/userlogin"}><a className="btn btn-primary btn-lg" href="#" role="button">Appy for job!</a></Link>
                 </p>
         </div>
+    </div>
     );
 };
 

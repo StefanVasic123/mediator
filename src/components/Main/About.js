@@ -1,13 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class About extends Component {
-    render() {
-        return (
-            <div>
-                ABOUT US
-            </div>
-        );
-    }
-}
+const About = (props) => {
+    return (
+        <div>
+                <h1>About us</h1>
+                <p>
+                    <button onClick={() => props.history.goBack()}>Back</button>
+                </p>
+        </div>
+    )
+};
 
 export default About;

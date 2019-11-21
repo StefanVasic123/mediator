@@ -1,13 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Contact extends Component {
-    render() {
-        return (
-            <div>
-                CONTACT
-            </div>
-        );
-    }
-}
+const Contact = (props) => {
+    return (
+        <div>
+            <h1>Contact</h1>
+            <p>
+                <button onClick={() => props.history.goBack()}>Back</button>
+            </p>
+        </div>
+    );
+};
 
 export default Contact;

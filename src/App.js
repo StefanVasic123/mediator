@@ -8,18 +8,22 @@ import {
         } from 'react-router-dom';
 import LoginForm from './components/FormAgency/LoginForm';
 import UserForm from './components/FormUser/UserForm';
-import Nav from './Nav';
 import About from './components/Main/About';
 import Contact from './components/Main/Contact';
 import Home from './components/Main/Home';
-
-
 import './App.css';
+import pageNotFound404 from './components/Main/pageNotFound404';
+import createHistory from 'history/createBrowserHistory';
+import Nav from './Nav';
+const history = createHistory();
+
+
+
 
 class App extends React.Component {
     render () {
         return (
-        <Router>
+        <Router history={history}>
             <div>
                 <Nav />
                 <Switch>
@@ -28,6 +32,7 @@ class App extends React.Component {
                     <Route path='/contact' component={withRouter(Contact)} />
                     <Route path='/agencylogin' component={withRouter(LoginForm)} /> 
                     <Route path='/userlogin' component={withRouter(UserForm)} />
+                    <Route path='' component={pageNotFound404} />
                 </Switch>
             </div>
         </Router>

@@ -3,6 +3,9 @@ import FormUserDropdown from './FormUserDropdown';
 // import style.css;
 
 class UserForm extends Component {
+    constructor(props) {
+        super(props);
+    }
     render() {
         return (
             <div>
@@ -41,6 +44,9 @@ class UserForm extends Component {
                     <button className="btn btn-primary" type="submit">Apply for job!</button>
                 </div>
                 </form>
+                <p>
+                    <button onClick={() => this.props.history.goBack()}>Back</button>
+                </p>
             </div>
         );
     }
