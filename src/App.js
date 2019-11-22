@@ -14,7 +14,7 @@ import Home from './components/Main/Home';
 import './App.css';
 import pageNotFound404 from './components/Main/pageNotFound404';
 import createHistory from 'history/createBrowserHistory';
-import Nav from './Nav';
+import Nav from './components/Nav';
 const history = createHistory();
 
 
@@ -23,9 +23,8 @@ const history = createHistory();
 class App extends React.Component {
     render () {
         return (
-        <Router history={history}>
+        <Router history={history} basename={process.env.PUBLIC_URL}>
             <div>
-                <Nav />
                 <Switch>
                     <Route path='/' exact component={withRouter(Home)} />
                     <Route path='/about' component={withRouter(About)} />

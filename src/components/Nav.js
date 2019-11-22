@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'; 
-import Home from './components/Main/Home';
-import About from './components/Main/About';
-import Contact from './components/Main/Contact';
+import Home from './Main/Home';
+import About from './Main/About';
+import Contact from './Main/Contact';
 
 class Nav extends Component {
     render() {
