@@ -8,8 +8,11 @@ class LoginForm extends React.Component {
 
     render() {
         return (
-        <div>
-            <form className="container">
+        <div className="container">
+            <form>
+            <h2 className="h1-responsive font-weight-bold text-center my-4">Sing in form</h2>
+ 
+ <p className="text-center w-responsive mx-auto mb-5">Want to work with us? You need reliable workers with transparent profile? Submit on this form and iniciate cooperation with us.</p>
                 <div className="form-group">
                     <label for="exampleInputEmail1">Email address</label>
                     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />

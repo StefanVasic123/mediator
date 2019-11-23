@@ -6,9 +6,10 @@ import { Link, BrowserRouter as Router } from 'react-router-dom';
 const Home = () => {
     return (
     <div>
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-4">Mediator</h1>
+        <div className="jumbotron jumbotron-fluid">
+            <Nav />
+            <div className="container">
+                <h1 className="display-4">Mediator</h1>
                 <p>Your choice for fast and efficient employment</p>
                 <hr className="my-4 " />
                     <p>Click Apply button, fill out the form and take the first step towards a brighter future</p>
