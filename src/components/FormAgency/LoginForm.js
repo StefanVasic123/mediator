@@ -28,7 +28,7 @@ class LoginForm extends React.Component {
                 </div>
                 <button type="submit" className="btn btn-primary">Submit</button>
             </form>
-            <button onClick={() => this.props.history.goBack()}>Back</button>
+            <button className="btn btn-secondary" onClick={() => this.props.history.goBack()}>Back</button>
         </div>
         );
     }

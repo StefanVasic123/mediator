@@ -11,21 +11,21 @@ const FormUserDropdown = () => {
             <div className="form-check-inline">
                 <input className="form-check-input" type="checkbox" value="" id="defaultCheck1" />
                 <label className="form-check-label" htmlFor="defaultCheck1">
-                    Varenje
+                    Cleaning
                 </label>
             </div>
 
             <div className="form-check-inline">
                 <input className="form-check-input" type="checkbox" value="" id="defaultCheck1" />
                 <label className="form-check-label" htmlFor="defaultCheck1">
-                    Ciscenje
+                    Constructing
                 </label>
             </div>
 
             <div className="form-check">
                 <input className="form-check-input" type="checkbox" value="" id="defaultCheck1" />
                 <label className="form-check-label" htmlFor="defaultCheck1">
-                    Motanje
+                    Default checkbox
                 </label>
             </div>
             

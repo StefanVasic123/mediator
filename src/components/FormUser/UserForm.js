@@ -45,7 +45,7 @@ class UserForm extends Component {
                 </div>
                 </form>
                 <p>
-                    <button onClick={() => this.props.history.goBack()}>Back</button>
+                    <button className="btn btn-secondary" onClick={() => this.props.history.goBack()}>Back</button>
                 </p>
             </div>
         );
