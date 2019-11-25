@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mediator/static/css/main.1b1bacec.chunk.css",
+    "main.css": "/mediator/static/css/main.e0dbce15.chunk.css",
     "main.js": "/mediator/static/js/main.c7cc12fa.chunk.js",
     "main.js.map": "/mediator/static/js/main.c7cc12fa.chunk.js.map",
     "runtime-main.js": "/mediator/static/js/runtime-main.14332067.js",
@@ -9,10 +9,10 @@
     "static/js/2.38ef5aaf.chunk.js": "/mediator/static/js/2.38ef5aaf.chunk.js",
     "static/js/2.38ef5aaf.chunk.js.map": "/mediator/static/js/2.38ef5aaf.chunk.js.map",
     "index.html": "/mediator/index.html",
-    "precache-manifest.e2795fb7617d38fbcb2e0916a2174e4b.js": "/mediator/precache-manifest.e2795fb7617d38fbcb2e0916a2174e4b.js",
+    "precache-manifest.5614441d7a0d7daaa833fcde40c14e88.js": "/mediator/precache-manifest.5614441d7a0d7daaa833fcde40c14e88.js",
     "service-worker.js": "/mediator/service-worker.js",
     "static/css/2.510409cd.chunk.css.map": "/mediator/static/css/2.510409cd.chunk.css.map",
-    "static/css/main.1b1bacec.chunk.css.map": "/mediator/static/css/main.1b1bacec.chunk.css.map",
-    "static/media/Home.css": "/mediator/static/media/person-touching-open-macbook-on-table-839465.528d3891.jpg"
+    "static/css/main.e0dbce15.chunk.css.map": "/mediator/static/css/main.e0dbce15.chunk.css.map",
+    "static/media/Home.css": "/mediator/static/media/Brush.dd4e53fb.png"
   }
 }
