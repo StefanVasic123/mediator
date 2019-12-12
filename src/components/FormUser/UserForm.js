@@ -8,8 +8,9 @@ class UserForm extends Component {
     }
     render() {
         return (
-            <div>
+            <div className='container'>
                 <form className="container">
+                <h2 className="h1-responsive font-weight-bold text-center my-4">Enter personal information</h2>
                 <div className="form-group row">
                         <label htmlFor="inputUserName" className="col-sm-2 col-form-label">Name:</label>
                     <div className="col-sm-10">
@@ -44,7 +45,7 @@ class UserForm extends Component {
                     <button className="btn btn-primary" type="submit">Apply for job!</button>
                 </div>
                 </form>
-                <p>
+                <p style={{paddingTop: '20px', marginLeft: '15px'}}>
                     <button className="btn btn-secondary" onClick={() => this.props.history.goBack()}>Back</button>
                 </p>
             </div>

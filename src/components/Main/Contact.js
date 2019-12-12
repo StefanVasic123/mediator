@@ -81,10 +81,10 @@ const Contact = (props) => {
             </ul>
         </div>
     </div>
+    <p style={{paddingTop: '20px'}}>
+        <button className="btn btn-secondary" onClick={() => props.history.goBack()}>Back</button>
+    </p>
 </section>
-<p>
-                <button onClick={() => props.history.goBack()}>Back</button>
-            </p>
 </div>
             
     );

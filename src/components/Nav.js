@@ -32,21 +32,5 @@ class Nav extends Component {
 }
 
 export default Nav;
-/*
-<ul className="nav justify-content-center">
-                        <li className="nav-item">
-                        <a className="nav-link">Home</a>
-                        </li>
-                    <Link to='/about'>
-                        <li className="nav-item">
-                        <a className="nav-link">About us</a>
-                        </li>
-                    </Link>
-                    <Link to='/contact'>
-                        <li className="nav-item">
-                        <a className="nav-link">Contact</a>
-                        </li>
-                    </Link>
-                </ul>
-*/
+
  
