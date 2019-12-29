@@ -5,6 +5,7 @@
   "homepage": "https://stefanvasic123.github.io/mediator/",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "faker": "^4.1.0",
     "git": "^0.1.5",
     "git-init": "^1.0.0",
     "react": "^16.9.0",

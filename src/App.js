@@ -11,6 +11,8 @@ import UserForm from './components/FormUser/UserForm';
 import About from './components/Main/About';
 import Contact from './components/Main/Contact';
 import Home from './components/Main/Home';
+import SignUp from './components/FormAgency/SignUp';
+import AgencyInterface from './components/AgencyInterface/AgencyInterface';
 import './App.css';
 import pageNotFound404 from './components/Main/pageNotFound404';
 import createHistory from 'history/createBrowserHistory';
@@ -31,6 +33,8 @@ class App extends React.Component {
                     <Route path='/contact' component={withRouter(Contact)} />
                     <Route path='/agencylogin' component={withRouter(LoginForm)} /> 
                     <Route path='/userlogin' component={withRouter(UserForm)} />
+                    <Route path='/signup' component={withRouter(SignUp)} />
+                    <Route path='/agencyinterface' component={withRouter(AgencyInterface)} />
                     <Route path='' component={pageNotFound404} />
                 </Switch>
             </div>

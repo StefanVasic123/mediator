@@ -1,0 +1,17 @@
+.content {
+    padding-bottom: 0.8em;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.about-client {
+    display: flex;
+    flex-direction: row;
+}
+.right-content {
+    padding-left: 2em;
+}
+.specifications {
+    padding: 0.5em 0 0.5em 0;
+}

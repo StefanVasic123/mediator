@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { render } from 'react-dom';
 
-const Contact = (props) => {
-    return (
+
+
+const Contact = props => {
+
+        const formSubmit = () => {
+            console.log('Your message has been sent!');
+        }
+        return (
         <div className="container">
 <section className="mb-4">
     <h2 className="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
@@ -60,7 +67,7 @@ const Contact = (props) => {
             </form>
 
             <div className="text-center text-md-left">
-                <a className="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                <a style={{ color: 'white' }} className="btn btn-primary" onClick={formSubmit, document.getElementById('contact-form').submit()}>Send</a>
             </div>
             <div className="status"></div>
         </div>
@@ -89,5 +96,6 @@ const Contact = (props) => {
             
     );
 };
+
 
 export default Contact;
