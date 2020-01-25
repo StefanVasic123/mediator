@@ -67,7 +67,7 @@ const Contact = props => {
             </form>
 
             <div className="text-center text-md-left">
-                <a style={{ color: 'white' }} className="btn btn-primary" onClick={formSubmit, document.getElementById('contact-form').submit()}>Send</a>
+                <a style={{ color: 'white' }} className="btn btn-primary" /* onClick={formSubmit, document.getElementById('contact-form').submit()}*/>Send</a>
             </div>
             <div className="status"></div>
         </div>
