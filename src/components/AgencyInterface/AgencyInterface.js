@@ -9,7 +9,7 @@ import './AgencyInterface.css';
 const AgencyInterface = (props) => {
     return (
         <div className='container'>
-            <h4 style={{ paddingTop: '30px' }} className="text-center w-responsive mx-auto mb-5">Hire your worker without making single one phone call.</h4><br />
+            <h4 style={{ paddingTop: '30px' }} className="text-center w-responsive mx-auto mb-5">Hire your worker without making single phone call.</h4><br />
             <p style={{ marginTop: '-65px' }} className="text-center w-responsive mx-auto mb-5">Just send request and track your client in real-time.</p>
             <UserCard />
             <UserCard />
